@@ -54,7 +54,7 @@ let colors_name = "monokai"
 if has("gui_running")
   let s:vmode      = "gui"
   let s:background = "#272822"
-  let s:foreground = "#E8E8E3"
+  let s:foreground = "#F8F8F2"
   let s:window     = "#64645e"
   let s:line       = "#383a3e"
   let s:linenr     = "#8F908A"
@@ -81,7 +81,7 @@ if has("gui_running")
 else
   let s:vmode      = "cterm"
   let s:background = "234"
-  let s:foreground = "252"
+  let s:foreground = "231"
   let s:window     = "239"
   let s:line       = "236"
   let s:linenr     = "243"
